@@ -1,0 +1,11 @@
+var FtoC = function (number) {
+  var conv = (number - 32) * (5/9);
+  console.log(conv);
+};
+// Fahrenheit to Celsius converter
+
+var CtoF = function (number) {
+  var conv = number * 1.8 + 32;
+  console.log(conv);
+};
+// Celsius to Fahrenheit converter
